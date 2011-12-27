@@ -21,7 +21,7 @@ version = File.read('VERSION') rescue ''
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "ffi-proj4"
+    gem.name = "cb-ffi-proj4"
     gem.summary = "An ffi wrapper for the PROJ.4 Cartographic Projections library."
     gem.description = gem.summary
     gem.email = "dark.panda@gmail.com"
